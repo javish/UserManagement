@@ -1,0 +1,6 @@
+
+dependencies {
+    compileOnly('org.projectlombok:lombok:1.16.20')
+    implementation "org.springframework.boot:spring-boot-starter-data-mongodb:${springBootVersion}"
+    testImplementation "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
+}
