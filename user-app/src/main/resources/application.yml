@@ -2,3 +2,7 @@
 spring.data.mongodb.host: localhost
 spring.data.mongodb.port: 27017
 spring.data.mongodb.database: demo_db
+
+#rabbit
+rabbit.topic.exchange.name: spring-boot-exchange
+rabbit.queue.name: spring-boot

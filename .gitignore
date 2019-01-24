@@ -1,5 +1,7 @@
 .gradle
 /build/
+/user-app/build/
+/user-service/build/
 !gradle/wrapper/gradle-wrapper.jar
 
 ### STS ###
@@ -24,3 +26,5 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+*.jar
+*.jar

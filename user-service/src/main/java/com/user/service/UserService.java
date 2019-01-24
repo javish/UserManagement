@@ -8,11 +8,11 @@ import java.util.List;
 public interface UserService {
 
     /**
-     * Method to get user by id
-     * @param userId
+     * Method to get user by email
+     * @param email
      * @return
      */
-    public User getUserById(ObjectId userId);
+    public User getUserByEmail(String email);
 
     public List<User> getAllUsersList();
 
@@ -21,4 +21,6 @@ public interface UserService {
      * @return
      */
     public User addUser(User user);
+
+    public User addDefaultUser(User user);
 }
