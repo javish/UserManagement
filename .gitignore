@@ -1,7 +1,7 @@
 .gradle
 /build/
-/user-app/build/
-/user-service/build/
+user-app/build/
+user-service/build/
 !gradle/wrapper/gradle-wrapper.jar
 
 ### STS ###
